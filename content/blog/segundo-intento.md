@@ -5,6 +5,4 @@ title: Segundo intento
 ---
 tratando de entender que carajo esta pasando la concha de tu madre enzou
 
-
-
 ![yo](/assets/mesipechera.jpg "asi estoy pelotudo")
