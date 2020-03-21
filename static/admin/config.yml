@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: enzzoperez/enzoublog
+  name: enzoublog
 
 media_folder: static/assets
 public_folder: assets
