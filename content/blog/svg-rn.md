@@ -2,7 +2,7 @@
 title: Imágenes SVGs en React Native
 date: '2020-03-20T23:46:37.121Z'
 path: svg-en-rn
-thumbnail: assets/coyote3.jpeg
+thumbnail: assets/denys-nevozhai-qpqd-w28adc-unsplash.jpg
 ---
 
 Que tal gente?, hoy voy a escribir un poco sobre como trabajar imágenes SVGs en React Native. No es mucho lo que tengo para escribir, simplemente como usar package que funciona bastante bien, así que empecemos.
