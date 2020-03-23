@@ -1,6 +1,8 @@
 ---
 title: Install Ubuntu on Lenovo IdeaPad 720s (settings)
-date: "2020-03-20T23:46:37.121Z"
+date: '2020-03-20T23:46:37.121Z'
+path: install-ubuntu-lenovo
+thumbnail: assets/mesipechera.jpg
 ---
 
 Hi there!, on this post I come to tell you what are the configs to be able to install Ubuntu in a notebook Levono IdeaPad 720s. I have the same as the photo above, except for the fingerprint reader :(, because in Argentina it doesn’t bring it (MMLPQTP).
