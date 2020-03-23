@@ -6,22 +6,49 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Button from "../components/button"
+import styled from "styled-components"
+
+const ListPostContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0 40px;
+  @media (max-width: 1024px) {
+    justify-content: center;
+  }
+`
+
+const PostContainer = styled.div`
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 0 20px 20px 0;
+  border: 1px solid #444242;
+  padding: 0 0 10px 20px;
+  @media (max-width: 620px) {
+    margin: 0 0px 20px 0;
+  }
+`
 
 class Blog extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMdx.edges
+    console.log("LA DATA", data)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <Bio />
-        <div style={{ margin: "20px 0 40px" }}>
+        <ListPostContainer name="CONTAINER-POSTS">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <div key={node.fields.slug}>
+              <PostContainer name="POST-INDV" key={node.fields.slug}>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
@@ -35,15 +62,10 @@ class Blog extends React.Component {
                   </Link>
                 </h3>
                 <small>{node.frontmatter.date}</small>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </div>
+              </PostContainer>
             )
           })}
-        </div>
+        </ListPostContainer>
         <Link to="/">
           <Button marginTop="85px">Go Home</Button>
         </Link>
