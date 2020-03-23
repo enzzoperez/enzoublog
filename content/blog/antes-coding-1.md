@@ -1,6 +1,8 @@
 ---
 title: Consejos antes del codding de una app mobile Parte 1
-date: "2020-03-20T23:46:37.121Z"
+date: '2020-03-20T23:46:37.121Z'
+path: app-mobile-1
+thumbnail: assets/coyote3.jpeg
 ---
 
 Buenas! En este post vengo a traer algunas cositas que creo se deberían tener en cuenta antes de comenzar a desarrollar (codificar) apps móviles.
