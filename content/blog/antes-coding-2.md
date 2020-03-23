@@ -2,7 +2,7 @@
 title: Consejos antes del codding de una app mobile Parte 2
 date: '2020-03-20T23:46:37.121Z'
 path: app-mobile-2
-thumbnail: assets/coyote3.jpeg
+thumbnail: assets/nastuh-abootalebi-ehd8y1znfpk-unsplash.jpg
 ---
 
 
