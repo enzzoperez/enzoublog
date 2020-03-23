@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
+import Img from "gatsby-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -28,6 +28,9 @@ const PostContainer = styled.div`
   margin: 0 20px 20px 0;
   border: 1px solid #444242;
   padding: 0 0 10px 20px;
+  background-image: url(${props => props.imgBackgorund});
+  background-size: 100%;
+  background-repeat: no-repeat;
   @media (max-width: 620px) {
     margin: 0 0px 20px 0;
   }
@@ -48,7 +51,20 @@ class Blog extends React.Component {
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <PostContainer name="POST-INDV" key={node.fields.slug}>
+              <PostContainer
+                name="POST-INDV"
+                key={node.fields.slug}
+                imgBackgorund={
+                  node.frontmatter.thumbnail &&
+                  node.frontmatter.thumbnail.childImageSharp.fluid.src
+                }
+              >
+                {/* {node.frontmatter.thumbnail && (
+                  <Img
+                    style={{ height: 300, widht: 300 }}
+                    fluid={node.frontmatter.thumbnail.childImageSharp.fluid.src}
+                  />
+                )} */}
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
@@ -93,7 +109,13 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
+            thumbnail {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
