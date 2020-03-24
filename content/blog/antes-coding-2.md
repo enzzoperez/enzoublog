@@ -1,16 +1,15 @@
 ---
 title: Consejos antes del codding de una app mobile Parte 2
-date: '2020-03-20T23:46:37.121Z'
+date: "2020-03-20T23:46:37.121Z"
 path: app-mobile-2
-thumbnail: assets/nastuh-abootalebi-ehd8y1znfpk-unsplash.jpg
+thumbnail: ../../static/assets/nastuh-abootalebi-ehd8y1znfpk-unsplash.jpg
 ---
-
 
 Hola de Nuevo! Continuando con el [anterior post](https://medium.com/@enzzorp/consejos-antes-del-codding-de-una-app-mobile-parte-1-965ea873981), ahora vamos a ver algunos puntos un toquesin más técnicos ya que la vez pasada vimos cosas más de sentido común.
 
 Como escribí anteriormente, los puntos que van a ver acá son los que para mi hay que tener muy en cuenta, pero que muchas veces o casi nunca pasa eso cuando se empieza con el proceso de desarrollar una app
 
-***PERFORMANCE***
+**_PERFORMANCE_**
 
 **Intentar entender los recursos que va a usar la app**
 
@@ -28,7 +27,7 @@ Esto es similar a lo anterior, solo que entra más en juego el cliente, en lo an
 
 Si el cliente quiere si o si esa feature/app podríamos arreglar, dependiendo los deadlines que ponga, de limitar el lanzamiento dejando afuera a dispositivos que tengan versiones antiguas del sistema operativo o que no cuenten con algún sensor, o cierta cantidad de RAM; sobre el espacio en memoria el mismo SO nos ayuda a que no se instale la app si no hay demasiado espacio.
 
-***TESTING***
+**_TESTING_**
 
 **Definir testing**
 

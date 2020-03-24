@@ -1,8 +1,8 @@
 ---
 title: Consejos antes del codding de una app mobile Parte 1
-date: '2020-03-20T23:46:37.121Z'
+date: "2020-03-20T23:46:37.121Z"
 path: app-mobile-1
-thumbnail: assets/gilles-lambert-pb_lf8vwapu-unsplash.jpg
+thumbnail: ../../static/assets/gilles-lambert-pb_lf8vwapu-unsplash.jpg
 ---
 
 Buenas! En este post vengo a traer algunas cositas que creo se deberían tener en cuenta antes de comenzar a desarrollar (codificar) apps móviles.
@@ -15,9 +15,9 @@ Vamos a separar los ítems en distintas categorías, donde el orden en que apare
 
 Si bien todos sabemos que primero va el análisis, recopilación de datos, etc, etc. , eso me pareció obvio, recalco que en este post pongo cosas que me parecen fundamentales y que (en mi caso, cuando me toco laburar con equipos) muchas veces/nunca se hacen.
 
-![Photo by [Rami Al-zayat](https://unsplash.com/@rami_alzayat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/10368/0*iX-TcKlJLmaJc3Ab)*Photo by [Rami Al-zayat](https://unsplash.com/@rami_alzayat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
+![Photo by [Rami Al-zayat](https://unsplash.com/@rami_alzayat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/10368/0*iX-TcKlJLmaJc3Ab)_Photo by [Rami Al-zayat](https://unsplash.com/@rami_alzayat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
-***DISEÑO***
+**_DISEÑO_**
 
 **Tener un diseño definido de la app**
 
@@ -53,7 +53,7 @@ Aunque no lo crean es algo que verdaderamente se tiene que tener en cuenta antes
 
 Es un punto que en mi caso ayudo a no tener que estar a medio proyecto, esperando a que el cliente apruebe (otra vez) un diseño propuesto para tablets por ejemplo.
 
-***EXPERIENCIA DE USUARIO (UX)***
+**_EXPERIENCIA DE USUARIO (UX)_**
 
 En esta parte no voy a nombrar herramientas porque no son cosas tan técnicas, sino me parece que más de sentido común y darle comodidad al usuario cuando utilice nuestra app.
 

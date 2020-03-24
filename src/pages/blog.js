@@ -29,7 +29,7 @@ const PostContainer = styled.div`
   border: 1px solid #444242;
   padding: 0 0 10px 20px;
   background-image: url(${props => props.imgBackgorund});
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   @media (max-width: 620px) {
     margin: 0 0px 20px 0;

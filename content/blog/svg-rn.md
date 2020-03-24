@@ -1,8 +1,8 @@
 ---
 title: Imágenes SVGs en React Native
-date: '2020-03-20T23:46:37.121Z'
+date: "2020-03-20T23:46:37.121Z"
 path: svg-en-rn
-thumbnail: assets/denys-nevozhai-qpqd-w28adc-unsplash.jpg
+thumbnail: ../../static/assets/denys-nevozhai-qpqd-w28adc-unsplash.jpg
 ---
 
 Que tal gente?, hoy voy a escribir un poco sobre como trabajar imágenes SVGs en React Native. No es mucho lo que tengo para escribir, simplemente como usar package que funciona bastante bien, así que empecemos.
@@ -37,7 +37,7 @@ Ahora vamos a crear nuestro componente logoRiver.js o como quieran llamarlo de a
 
 Bien!, como vas a notar, los únicos pasos que debemos hacer son:
 
-1- Fijarnos cuales son las etiquetas que usa nuestro SVG e importar esas etiquetas desde el package, en este caso el SVG que utilizamos tiene 3 etiquetas *svg, g y path* , para estas etiquetas react-native-svg tiene 3 componentes *Svg, G y Path* los cuales los importamos arriba.
+1- Fijarnos cuales son las etiquetas que usa nuestro SVG e importar esas etiquetas desde el package, en este caso el SVG que utilizamos tiene 3 etiquetas _svg, g y path_ , para estas etiquetas react-native-svg tiene 3 componentes _Svg, G y Path_ los cuales los importamos arriba.
 
 Podes ver todos los componentes que tiene en su documentación en el repo que deje mas arriba ☝️
 
