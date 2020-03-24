@@ -1,10 +1,8 @@
 ---
 path: second-test-img
 title: donde se guardan las img
-thumbnail: assets/aymisecreto.jpg
+thumbnail: assets/bañando.jpeg
 ---
 cuales se estann guardando
 
-
-
-![](assets/19642189.jpg)
+![](assets/averaver.jpg)
