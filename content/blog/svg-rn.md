@@ -40,11 +40,11 @@ Vamos a utilizar este SVG
 
 Bien, tenemos nuestro SVG. Agreguemos el package a nuestro proyecto:
 
-`npm i react-native-svg`
+> npm i react-native-svg
 
 y luego si estan usando una version de RN < 0.60 linkeamos el código nativo. Si usan la version 0.60 o mayor, RN hara este paso automaticamente por lo que podes saltarlo
 
-`react-native link react-native-svg`
+> react-native link react-native-svg
 
 Ahora vamos a crear nuestro componente logoRiver.js o como quieran llamarlo de acuerdo a la imagen que vayan a utilizar
 
