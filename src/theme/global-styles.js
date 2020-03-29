@@ -6,11 +6,17 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: #201f1f;
         height: 100vh;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     #___gatsby{
         background-color: blue;
         height: 100%;
+    }
+
+    blackquote {
+        color: hsla(0, 0%, 100%, 0.59);
+        border-left: 0.32813rem solid hsla(0, 100%, 98.6%, 0.9);
     }
 
     .icon-svg {
