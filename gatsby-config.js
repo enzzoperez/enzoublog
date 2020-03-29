@@ -52,7 +52,7 @@ module.exports = {
           },
           {
             resolve: `gatsby-transformer-remark`,
-          }
+          },
           {
             resolve: `gatsby-remark-vscode`,
           },
