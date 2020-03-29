@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
-    @import url("https://fonts.googleapis.com/css?family=Ubuntu");
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
     body {
         background-color: #201f1f;
@@ -9,15 +9,16 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Ubuntu', sans-serif;
     }
 
+    blockquote {
+        color: hsla(0, 0%, 100%, 0.59);
+        border-left: 0.32813rem solid hsla(0, 100%, 98.6%, 0.9);
+    }
+
     #___gatsby{
         background-color: blue;
         height: 100%;
     }
 
-    blackquote {
-        color: hsla(0, 0%, 100%, 0.59);
-        border-left: 0.32813rem solid hsla(0, 100%, 98.6%, 0.9);
-    }
 
     .icon-svg {
     color: #ecebe8;
