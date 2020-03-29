@@ -11,7 +11,7 @@ Los SVG (Scalable Vector Graphics) tienen la particularidad que no se deforman c
 
 ### **React Native SVG**
 
-Este package es OSS y saca provecho de las etiquetas XML por las que están formados los SVG y usa componentes llamados de igual forma que estas etiquetas: **[react-native-community/react-native-svg](https://github.com/react-native-community/react-native-svg)**
+Este package es OSS y saca provecho de las etiquetas XML por las que están formados los SVG, y lo podemos usar de dos formas distintas, una es usando componentes llamados de igual forma que estas etiquetas y la otra es pasar el XML como un string a un Componente de este modulo. Vamos a ver las dos formas: **[react-native-community/react-native-svg](https://github.com/react-native-community/react-native-svg)**
 
 Vamos a usar un ejemplo con un SVG para ver como deberíamos usarlo.
 
