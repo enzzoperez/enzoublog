@@ -27,11 +27,11 @@ when the download is finished, we should build a bootable USB. For this I used R
 
 You must connect the pen drive and execute Rufus.
 
-**![Screenshot rufus](https://cdn-images-1.medium.com/max/2000/1*DYSPRx1QD_vHyxwcRe-xDA.png)**
+###### ![Screenshot rufus](https://cdn-images-1.medium.com/max/2000/1*DYSPRx1QD_vHyxwcRe-xDA.png)_Screenshot rufus_
 
 Once you have the same config, select the downloaded ISO by clicking on the highlighted figure whit light blue and make click on “Start” (“Empezar”).
 
-**![Warnings](https://cdn-images-1.medium.com/max/2000/1*ZnMdLc9Je1BG-aj2YyEOtQ.png)**
+###### ![Warnings](https://cdn-images-1.medium.com/max/2000/1*ZnMdLc9Je1BG-aj2YyEOtQ.png)_Warning screen_
 
 They’re going to skip some warnings about formatting data, click “ok” to everything and wait to it finish. We have ready the bootable USB with Ubuntu (or other).
 
@@ -63,4 +63,4 @@ That’s it, Yay!, now you can have a dual boot with Ubuntu and Windows.
 
 ### _Important!_: If you want to use Windows, you must change the value of “Sata Driver Mode” to RAID again, and when you go back to Linux, change it to AHCI\*\*
 
-It’s my first post, so any criticism / feedback you have leave it in the comments please! Thanks for reading.
+It’s my first post, so any criticism / feedback let me know with a PR in [this repo](https://github.com/enzzoperez/enzoublog) please (just until I can install the comment plugin :D ) thank you for read!

@@ -19,6 +19,12 @@ export const GlobalStyle = createGlobalStyle`
         height: 100%;
     }
 
+    h6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .icon-svg {
     color: #ecebe8;

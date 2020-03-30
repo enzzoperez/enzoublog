@@ -175,4 +175,4 @@ Hay una ultima forma, la cual no voy a describir, que es usar un SVG local. No l
 
 Fácil no?, bueno eso es todo, ahora podes tener tus SVG ordenados por componentes y ahorrarte un par de problemillas 😆.
 
-Cualquier feedback o duda que tengan dejenlos en los comentarios por favor. Saludos!
+Cualquier feedback o duda que tengan dejenlos en un PR en [este repo](https://github.com/enzzoperez/enzoublog) por favor hasta que habbilite los comments aca :D . Saludos!
