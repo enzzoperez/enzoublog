@@ -1,6 +1,6 @@
 ---
 title: Imágenes SVGs en React Native
-date: "2020-03-20T23:46:37.121Z"
+date: '2020-03-20T23:46:37.121Z'
 path: svg-en-rn
 thumbnail: ../../static/assets/denys-nevozhai-qpqd-w28adc-unsplash.jpg
 ---
@@ -170,6 +170,8 @@ class App extends React.Component {
 
 export default App;
 ```
+
+Hay una ultima forma, la cual no voy a describir, que es usar un SVG local. No la voy a describir porque no me parece la mejor forma de aprovechar los SVG, ya que si podes usar el codigo XML en un js, para que quisiera tener todos los archivos SVG locales no?.. Mas alla de mi opinion acerca de esta cuestion esa parte esta en el readme del package.
 
 Fácil no?, bueno eso es todo, ahora podes tener tus SVG ordenados por componentes y ahorrarte un par de problemillas 😆.
 
