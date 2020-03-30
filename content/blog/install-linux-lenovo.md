@@ -1,6 +1,6 @@
 ---
 title: Install Ubuntu on Lenovo IdeaPad 720s (settings)
-date: "2020-03-20T23:46:37.121Z"
+date: "2020-03-15T23:46:37.121Z"
 path: install-ubuntu-lenovo
 thumbnail: ../../static/assets/denys-nevozhai-dq93anzsrh0-unsplash.jpg
 ---
@@ -27,11 +27,11 @@ when the download is finished, we should build a bootable USB. For this I used R
 
 You must connect the pen drive and execute Rufus.
 
-![Screenshot rufus](https://cdn-images-1.medium.com/max/2000/1*DYSPRx1QD_vHyxwcRe-xDA.png)_Screenshot rufus_
+**![Screenshot rufus](https://cdn-images-1.medium.com/max/2000/1*DYSPRx1QD_vHyxwcRe-xDA.png)**
 
 Once you have the same config, select the downloaded ISO by clicking on the highlighted figure whit light blue and make click on “Start” (“Empezar”).
 
-![Warnings](https://cdn-images-1.medium.com/max/2000/1*ZnMdLc9Je1BG-aj2YyEOtQ.png)_Warnings_
+**![Warnings](https://cdn-images-1.medium.com/max/2000/1*ZnMdLc9Je1BG-aj2YyEOtQ.png)**
 
 They’re going to skip some warnings about formatting data, click “ok” to everything and wait to it finish. We have ready the bootable USB with Ubuntu (or other).
 
@@ -45,11 +45,11 @@ in windows we must free space, this post (in Spanish) explains it better and wit
 
 Now we have to restart the PC and before it turns on we press “F2” to enter the BIOS. Once here, we have to start from our pendrive, for this I show you the following image.
 
-![BIOS image of my pc](https://cdn-images-1.medium.com/max/8320/1*OJ-pm4iJ7c_0s5Ku0znfRg.jpeg)_BIOS image of my pc_
+**![BIOS image of my pc](https://cdn-images-1.medium.com/max/8320/1*OJ-pm4iJ7c_0s5Ku0znfRg.jpeg)_BIOS image of my pc_**
 
 “Linupus lite (hp v125w)” is my pendrive, we must move it as the first boot device, through “F6” we can do it. In the Security option make sure you have the same config as the following image.
 
-![Security options in BIOS](https://cdn-images-1.medium.com/max/8320/1*mRhpo6jzn3Y00V54pcfsRg.jpeg)_Security options in BIOS_
+**![Security options in BIOS](https://cdn-images-1.medium.com/max/8320/1*mRhpo6jzn3Y00V54pcfsRg.jpeg)_Security options in BIOS_**
 
 Finally, we must configure the storage protocol of our SDD. Windows uses RAID, so for Ubuntu we must use AHCI. Then change the option “Sata controller mode” and select AHCI.
 
@@ -61,6 +61,6 @@ We are ready to install Ubuntu (or another Linux OS). Restart the pc with the pe
 
 That’s it, Yay!, now you can have a dual boot with Ubuntu and Windows.
 
-**_Important!_: If you want to use Windows, you must change the value of “Sata Driver Mode” to RAID again, and when you go back to Linux, change it to AHCI**
+### _Important!_: If you want to use Windows, you must change the value of “Sata Driver Mode” to RAID again, and when you go back to Linux, change it to AHCI\*\*
 
 It’s my first post, so any criticism / feedback you have leave it in the comments please! Thanks for reading.

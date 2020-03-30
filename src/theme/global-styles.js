@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
         width: 45px;
         height: 45px;
     }
+
     @media (min-width: 160px) and (max-width: 848px) {
         .icon-medium{
             width: 25px;

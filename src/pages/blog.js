@@ -18,6 +18,13 @@ const ListPostContainer = styled.div`
   }
 `
 
+const StyledLink = styled(Link)`
+  color: white;
+  text-decoration: none;
+  background: #e815bde3;
+  line-height: 30px;
+`
+
 const PostContainer = styled.div`
   height: 300px;
   width: 300px;
@@ -41,7 +48,6 @@ class Blog extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMdx.edges
-    console.log("LA DATA", data)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -59,23 +65,17 @@ class Blog extends React.Component {
                   node.frontmatter.thumbnail.childImageSharp.fluid.src
                 }
               >
-                {/* {node.frontmatter.thumbnail && (
-                  <Img
-                    style={{ height: 300, widht: 300 }}
-                    fluid={node.frontmatter.thumbnail.childImageSharp.fluid.src}
-                  />
-                )} */}
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <Link
+                  <StyledLink
                     style={{ boxShadow: `none` }}
                     to={`blog${node.fields.slug}`}
                   >
                     {title}
-                  </Link>
+                  </StyledLink>
                 </h3>
                 <small>{node.frontmatter.date}</small>
               </PostContainer>
