@@ -25,6 +25,10 @@ export const GlobalStyle = createGlobalStyle`
         align-items: center;
     }
 
+    a{
+        text-decoration: none;
+        color: transparent;
+    }
 
     .icon-svg {
     color: #ecebe8;

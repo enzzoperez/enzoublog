@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -25,6 +24,13 @@ const StyledLink = styled(Link)`
   line-height: 30px;
 `
 
+const StyledLinkContainer = styled(Link)`
+  margin: 0 20px 20px 0;
+  @media (max-width: 620px) {
+    margin: 0 0px 20px 0;
+  }
+`
+
 const PostContainer = styled.div`
   height: 300px;
   width: 300px;
@@ -32,15 +38,13 @@ const PostContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: end;
-  margin: 0 20px 20px 0;
   border: 1px solid #444242;
   padding: 0 0 10px 20px;
   background-image: url(${props => props.imgBackgorund});
   background-size: cover;
   background-repeat: no-repeat;
-  @media (max-width: 620px) {
-    margin: 0 0px 20px 0;
-  }
+  background-position: center;
+  
 `
 
 class Blog extends React.Component {
@@ -57,6 +61,7 @@ class Blog extends React.Component {
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
+              <StyledLinkContainer to={`blog${node.fields.slug}`} >
               <PostContainer
                 name="POST-INDV"
                 key={node.fields.slug}
@@ -68,6 +73,7 @@ class Blog extends React.Component {
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
+                    maxWidth: 250
                   }}
                 >
                   <StyledLink
@@ -79,6 +85,9 @@ class Blog extends React.Component {
                 </h3>
                 <small>{node.frontmatter.date}</small>
               </PostContainer>
+            
+              
+              </StyledLinkContainer>
             )
           })}
         </ListPostContainer>

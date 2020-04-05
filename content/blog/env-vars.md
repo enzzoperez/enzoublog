@@ -2,7 +2,7 @@
 title: Variables de entorno en Ract Native
 date: '2020-03-21T23:46:37.121Z'
 path: variables-entorno-react-native
-thumbnail: assets/turned-on-grey-table-lamp-1643280.jpg
+thumbnail: ../../static/assets/turned-on-grey-table-lamp-1643280.jpg
 ---
 
 # Variables de entorno en React Native (Android)

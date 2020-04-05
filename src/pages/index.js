@@ -133,7 +133,7 @@ class IndexPage extends React.Component {
               $ Enzo Perez &nbsp; <GuionBajo className="guionBajo"></GuionBajo>
             </Name>
             <Dev className="dev">
-              Frontend Dev (&amp; Frustrated soccer player &#129325;)
+              Frontend Dev (&amp; Frustrated soccer player <span role="img" aria-label="sheep">&#129325;</span> )
             </Dev>
             <LinkStyled>
               <AnchorStyled
@@ -210,7 +210,7 @@ class IndexPage extends React.Component {
               </AnchorStyled>
             </LinkStyled>
             <ButtonContainer>
-              <LinkButton to="/blog">
+              <LinkButton to="/blog/">
                 <Button
                   radius={"40px"}
                   background={"transparent"}
